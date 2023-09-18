@@ -1,0 +1,9 @@
+String Concatination and String Interpolation both methods used for Combine Strings.
+In String Interpolation we used ${} symbol for Combine string for example
+
+let name = "Deepshikha";
+let surname = "Vishwakarma";
+
+console.log(`My full name is ${name} ${surname}.`);    (we are combining two Strings using String Interpolation)
+
+console.log("My full name is"+" "+name+" "+surname+" ."); (we are combining two Strings using String Concatination)

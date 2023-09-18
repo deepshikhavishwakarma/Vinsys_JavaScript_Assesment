@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    generateResponse = (input) => {
+        console.log(input);
+        switch (input.toLowerCase()) {
+            case "sunday":
+                console.log("You can order Simple pasta and Cheese pasta");
+                break;
+            case "monday":
+                console.log("You can order Butter Naan and Chole Rice");
+                break;
+            case "tuesday":
+                console.log("You can order Idli Sambhar and Dosa");
+                break;
+            case "wednesday":
+                console.log("You can order Daal Baati, Plain rice, and Jeera Rice");
+                break;
+            case "thursday":
+                console.log("You can order Manchurian and Chole Kulche");
+                break;
+            case "friday":
+                console.log("You can order Kadai Paneer and Palak Paneer");
+                break;
+            case "saturday":
+                console.log("You can order Sweet Deserts and Kulfi");
+                break;
+            default:
+                console.log("Your item is not listed.");
+        }
+    }
+
+    generateResponse("Saturday");
+    </script>
+</body>
+</html>
